@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Todos%20CSS/style.css">
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="aguila">
+                <img class="logoaguila" src="Great_Seal_of_the_United_States_obverse.svg.png">
+            </div>
+            <div class="flextittle">
+                <div class="image">
+                    <h1 class="tgiftittle"><a class="colorhome" href="home-starter-page.html"><span>TGIF</span></a></h1>
+                </div>
+                <div>
+                    <h1 class="infoemail"><a href="mailto:info@tgif.net"><span class="glyphicon glyphicon-envelope"> info@tgif.net</span></a></h1>
+                </div>
+            </div>
+        </header>
+        <div class="otrobackground">
+
+            <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home-starter-page.html">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="home-starter-page.html">Congress 113<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="house-starter-page.html">House</a></li>
+                            <li><a href="senate-starter-page.html">Senate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="home-starter-page.html">Attendance<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="senate_house-attendence-house.html">House</a></li>
+                            <li><a href="senate_house-attendance-starter-page.html">Senate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="home-starter-page.html">Party Loyalty<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="senate_house-party-loyalty-house.html">House</a></li>
+                            <li><a href="senate_house-party-loyalty-starter-page.html">Senate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            <div class="margenes">
+                <!--Table container-->
+                <div>
+                    <h2 class="encabezadotitulo">Congressmen</h2>
+                    <p>The major power of the House is to pass federal legislation that affects the entire country, although its bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no majority in the Electoral College.</p>
+                    <p>Each U.S. state is represented in the House in proportion to its population as measured in the census, but every state is entitled to at least one representative. </p>
+
+                    <div class="flexfilter">
+                        <div id="checkboxfilter">
+                            <label> Filtred by:</label>
+                            <div>
+                                <label>Democrat:</label> <label> <input id="democrat" type="checkbox" name="SDemocrat" value="D"></label>
+                            </div>
+                            <div>
+                                <label>Republican:</label> <label><input id="republican" type="checkbox" name="SRepublican" value="R"></label>
+                            </div>
+                            <div>
+                                <label>Independent:</label> <label><input id="independent" type="checkbox" name="SIndependent" value="I"></label>
+                            </div>
+                        </div>
+                        <div>
+                            <select id="stateslist">
+                            <option id="allstates" value="all">All States:</option>
+                        </select>
+                        </div>
+                        <div class="datasouce">
+                            <label>Use data source:</label>
+                            <div>
+                                <label>NYT</label> <label> <input id="nytb" type="checkbox"></label>
+                            </div>
+                            <div>
+                                <label>Sunlight Lab</label> <label><input id="sunlightb" type="checkbox"></label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="container">
+                        <div class="scrollit">
+                            <table class="table table-hover">
+                                <th>Name</th>
+                                <th>Years in Office</th>
+                                <th>Birthday</th>
+                                <th>Party</th>
+                                <th>State</th>
+                                <th>% Votes w/ Party</th>
+                                <tbody id="tableHouse">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--<script src="Hoja_Scripts/congressData.js"></script-->
+                <script src="Hoja_Scripts/main.js"></script>
+
+                <footer class="foot">
+                    <p>© 2016 TGIF &#124; All Rights Reserved.</p>
+                </footer>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

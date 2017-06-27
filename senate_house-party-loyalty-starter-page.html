@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Todos%20CSS/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Todos%20CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="aguila">
+            <img class="logoaguila" src="Great_Seal_of_the_United_States_obverse.svg.png">
+        </div>
+        <div class="flextittle">
+            <div class="image">
+                <h1 class="tgiftittle"><a class="colorhome" href="home-starter-page.html"><span>TGIF</span></a></h1>
+            </div>
+            <div>
+                <h1 class="infoemail"><a href="mailto:info@tgif.net"><span class="glyphicon glyphicon-envelope"> info@tgif.net</span></a></h1>
+            </div>
+        </div>
+    </header>
+    <div class="otrobackground">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="home-starter-page.html">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="home-starter-page.html">Congress 113<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="house-starter-page.html">House</a></li>
+                            <li><a href="senate-starter-page.html">Senate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="home-starter-page.html">Attendance<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="senate_house-attendence-house.html">House</a></li>
+                            <li><a href="senate_house-attendance-starter-page.html">Senate</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="home-starter-page.html">Party Loyalty<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="senate_house-party-loyalty-house.html">House</a></li>
+                            <li><a href="senate_house-party-loyalty-starter-page.html">Senate</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="margenes">
+            <!--Table container-->
+            <div class="containerflex">
+                <div class="attandancespace">
+                    <h2 class="encabezadotitulo">Party Loyalty:</h2>
+                    <p>Those who consider themselves to be strong partisans, strong Democrats and strong Republicans respectively, tend to be the most faithful in voting for their party's nominee for office and legislation that backs their party's agenda.</p>
+
+                </div>
+<div>
+                <div class="tablasenateat">
+                    <h2 class="senateat">Senate at a glance:</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Party</th>
+                                <th>Number of Reps</th>
+                                <th>% Voted with Prty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Republican</td>
+                                <td id="noRep">--</td>
+                                <td id="percentRep">--</td>
+                            </tr>
+                            <tr>
+                                <td>Democrat</td>
+                                <td id="noDem">--</td>
+                                <td id="percentDem">--</td>
+                            </tr>
+                            <tr>
+                                <td>Independent</td>
+                                <td id="noInd">--</td>
+                                <td id="percentInd">--</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    </div>
+            </div>
+            <div class="secondcointenerflex">
+
+                <div class="lefttable">
+                    <h2>Least Loyal (Bottom 10% of Party)</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Nº. Party Votes</th>
+                                <th>% Party Votes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="numberofvotessenate">
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="righttable">
+                    <h2>Most Loyal (Top 10% of Party)</h2>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Nº. Party Votes</th>
+                                <th>% Party Votes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="percentvotessenate">
+                          
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <footer class="foot">
+                <p> &#169 2016 TGIF &#124; All Rights Reserved.</p>
+            </footer>
+
+        </div>
+        <script src="Hoja_Scripts/senatorData.js"></script>
+        <script src="Hoja_Scripts/statiticsLoyal.js"></script>
+    
+    </div>
+</body>
+
+</html>

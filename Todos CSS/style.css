@@ -1,0 +1,325 @@
+.bordertable {
+    border-style: solid;
+}
+
+#tableHouse {}
+
+.mytable {
+    width: 50%;
+    margin: auto;
+}
+
+.mytable2 {
+    width: 50%;
+    margin: auto;
+}
+
+.scrollit {
+    overflow: auto;
+    width: 100%;
+    height: 500px;
+    border: solid grey;
+    margin-top: 30px;
+    box-shadow: 10px 10px 35px #888888;
+    border-radius: 4px;
+}
+
+h1 {}
+
+.prueba {}
+
+a {}
+
+.colorhome {
+    color: white;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.margenes {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.foot {
+    text-align: center;
+    border: solid 2px grey;
+    margin-top: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-image: url(../IMG_258564.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 0px;
+}
+
+.imagefondo {
+    width: 100%;
+    position: relative;
+}
+
+.tgiftittle {}
+
+.tgiftittle span {
+    font-size: 35px;
+    letter-spacing: 5px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 500px;
+}
+
+.infoemail span {
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 500px;
+    color: white;
+}
+
+.flextittle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background {
+    background-color: red;
+}
+
+.otrobackground {
+    background-color: white;
+    border-radius: 0px;
+}
+
+#checkboxfilter {
+    border-style: solid;
+    border-color: grey;
+    padding: 5px;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+
+.logoaguila {
+    width: auto;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.navbar {
+    border-radius: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexfilters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#dropdownlist {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.container-fluid {
+    border-radius: 0px;
+    background-attachment: fixed;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: url("http://enjoycss.com/bg-img/default/3_6.png");
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+.navbar-inverse {
+    border-radius: 0px;
+}
+
+.flexfilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+select {
+    border: solid 3px;
+    border-radius: 4px;
+    border-color: grey;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.encabezadotitulo {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#logopacity {
+    position: absolute;
+    width: 1px;
+    z-index: -1;
+}
+
+.containerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.attandancespace {
+    width: 50%;
+    padding: 15px;
+}
+
+.senateat {
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 100%;
+    text-decoration: underline;
+    direction: rtl;
+}
+
+.tablasenateat {
+    border: solid;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.secondcointenerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.lefttable {
+    width: 50%;
+    padding: 15px;
+    border-style: solid;
+    margin: 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: -19px 11px 52px -13px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: -19px 11px 52px -13px rgba(0, 0, 0, 0.37);
+    box-shadow: -19px 11px 52px -13px rgba(0, 0, 0, 0.37);
+}
+
+.righttable {
+    width: 50%;
+    padding: 15px;
+    border-style: solid;
+    margin: 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: 18px 14px 60px -8px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 18px 14px 60px -8px rgba(0, 0, 0, 0.59);
+    box-shadow: 18px 14px 60px -8px rgba(0, 0, 0, 0.59);
+}
+
+.senateat2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 100%;
+    text-decoration: underline;
+    direction: rtl;
+}
+
+.tablehouse {
+    border: solid;
+    padding: 25px;
+    border-radius: 4px;
+}
+
+.lefttable2 {
+    width: 50%;
+    padding: 15px;
+    border-style: solid;
+    margin: 20px;
+    border-radius: 4px;
+    overflow: auto;
+    height: 500px;
+    width: 100%;
+    -webkit-box-shadow: -19px 11px 52px -13px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: -19px 11px 52px -13px rgba(0, 0, 0, 0.37);
+    box-shadow: -19px 11px 52px -13px rgba(0, 0, 0, 0.37);
+}
+
+.righttable2 {
+    padding: 15px;
+    border-style: solid;
+    margin: 20px;
+    border-radius: 4px;
+    overflow: auto;
+    height: 500px;
+    width: 100%;
+    -webkit-box-shadow: 18px 14px 60px -8px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 18px 14px 60px -8px rgba(0, 0, 0, 0.59);
+    box-shadow: 18px 14px 60px -8px rgba(0, 0, 0, 0.59);
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #920000;
+    opacity: 0.5;
+}
+
+.acomodartitulo {
+    margin-bottom: 40px;
+}
+
+.datasouce {
+    border-style: solid;
+    border-color: grey;
+    padding: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+
+th {
+    text-decoration: underline;
+}
